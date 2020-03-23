@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .wrapper {
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    margin: 10px;
+    width: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    border: 1px solid black;
+    display: inline-block;
+  }
+  .container {
+    margin: 10px;
+  }
+  h2 {
+    margin-bottom: 1px;
+  }
