@@ -7,7 +7,7 @@ from parser import parse_data
 app = Flask(__name__)
 CORS(app)
 
-@app.route("/get/data", methods=["GET"])
+@app.route("/get/alldata", methods=["GET"])
 def get_data():
     filename = parse_data()
     with open(filename) as f: 
