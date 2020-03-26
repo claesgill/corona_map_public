@@ -7,7 +7,8 @@ def download_dataset():
     
     Returns the response as json
     """
-    url = "https://coronavirus-tracker-api.herokuapp.com/all"
+    # url = "https://coronavirus-tracker-api.herokuapp.com/all" OLD URL
+    url = "https://coronavirus-tracker-api.herokuapp.com/v2/locations"
     respons = requests.get(url)
     if respons.status_code == 200:
         data = respons.json()
